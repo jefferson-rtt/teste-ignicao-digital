@@ -38,8 +38,8 @@ export default defineComponent({
 
 <style scoped>
 .container{
-  width: 100%;
-  height: 100vh;
+  width: 280px;
+  height: 100%;
   box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.170509);
 }
 
@@ -86,7 +86,6 @@ export default defineComponent({
   display: none;
   position: absolute;
   width: 100%;
-
 }
 
 .dropdown li > a{

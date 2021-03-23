@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div class="container navbar">
     <div class="tasks">
       <a href="#">
         <img src="@/assets/images/check-square.svg" alt="Todo">
@@ -16,7 +16,10 @@
     </div>
     <div class="user">
       <span><img src="@/assets/images/bell.svg" alt="Notificações"></span>
-      <span><img src="@/assets/images/search.svg" alt="Pesquisar"></span>
+      <span class="search-hover">
+        <input class="input-search" type="search" name="" id="">
+        <img class="search" src="@/assets/images/search.svg" alt="Pesquisar">
+      </span>
       <div class="profile">
         <p class="username">Nome do Usuário</p>
         <p class="description-user">Cliente VIP</p>
@@ -40,8 +43,7 @@ export default defineComponent({
 
 <style scoped>
 .container{
-  width: 100%;
-  height: 70px;
+  height: 60px;
   background: #FFFFFF;
   box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.135216);
   border-radius: 8px;
@@ -50,6 +52,10 @@ export default defineComponent({
   justify-content: space-between;
 
   padding: 0 20px;
+}
+
+.navbar{
+  max-width: 100%;
 }
 
 .tasks{
@@ -96,13 +102,32 @@ export default defineComponent({
 }
 
 .profile-photo{
-  width: 60px;
-  height: auto;
+  width: 50px;
+  height: 50px;
 
   border-radius: 50%;
   margin-left: 10px;
 
   box-shadow: -1px 1px 6px rgba(0, 0, 0, 0.235413);
+}
+
+.search-hover{
+  display: flex;
+  align-items: center;
+}
+.search-hover:hover .input-search{
+  display: inline-block;
+}
+
+.input-search{
+  display: none;
+  height: 30px;
+  border-radius: 12px;
+  outline: none;
+  border: 1px solid #2C2C2C;
+
+  padding: 0 10px;
+  font-size: .85rem;
 }
 
 </style>

@@ -1,6 +1,8 @@
 <template>
-  <div class="container">
-
+  <div class="container-filters">
+    <p>Filtros</p>
+    <div class="menu">
+    </div>
   </div>
 </template>
 
@@ -17,9 +19,15 @@ export default defineComponent({
 </script>
 
 <style scoped>
-.container{
+.container-filters{
+  height: 700px;
   width: 100%;
-  background: chocolate;
-  height: 70px;
 }
+
+.menu{
+  background: coral;
+  height: 500px;
+  padding: 0 10px;
+}
+
 </style>
