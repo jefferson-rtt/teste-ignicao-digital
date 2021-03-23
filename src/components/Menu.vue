@@ -38,12 +38,11 @@ export default defineComponent({
 
 <style scoped>
 .container{
-  width: 280px;
+  width: 100%;
   height: 100vh;
   box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.170509);
-  position: absolute;
-
 }
+
 .flex{
   display: flex;
   flex-direction: column;

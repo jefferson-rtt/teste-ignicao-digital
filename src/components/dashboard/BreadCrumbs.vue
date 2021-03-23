@@ -19,11 +19,7 @@ export default defineComponent({
 <style scoped>
 .container{
   width: 100%;
+  background: chocolate;
   height: 70px;
-  /* margin-left: 300px; */
-  background: #ff2020;
-  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.135216);
-  border-radius: 8px;
-  position: absolute;
 }
 </style>

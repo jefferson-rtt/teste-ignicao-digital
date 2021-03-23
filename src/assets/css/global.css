@@ -1,5 +1,7 @@
 body {
   font-family: 'Montserrat', sans-serif;
+  background: #FFFFFF;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.0778245);
 }
 
 ul li{
