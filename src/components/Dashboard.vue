@@ -31,7 +31,8 @@ export default defineComponent({
   grid-auto-flow: row;
   grid-template-rows: auto;
   grid-template-columns: 1fr;
-  gap: 20px;
+  grid-gap: 20px;
+  box-sizing: border-box;
 }
 .navbar{
   margin-bottom: 10px;
@@ -40,7 +41,7 @@ export default defineComponent({
 .frame{
   display: grid;
   grid-auto-flow: column;
-  grid-template-columns: 350px 1fr;
+  grid-template-columns: auto 1fr;
   gap: 20px;
 }
 </style>

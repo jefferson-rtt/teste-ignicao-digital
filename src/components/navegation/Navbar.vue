@@ -42,7 +42,7 @@ export default defineComponent({
 </script>
 
 <style scoped>
-.container{
+.navbar{
   height: 60px;
   background: #FFFFFF;
   box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.135216);

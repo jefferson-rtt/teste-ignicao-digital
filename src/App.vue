@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div class="container-main">
     <Menu class="menu"/>
     <Dashboard class="dashboard" />
   </div>
@@ -19,13 +19,14 @@ export default defineComponent({
 </script>
 
 <style>
-.container{
+.container-main{
   max-width: 1600px;
   margin: 0 auto;
   display: grid;
   grid-auto-flow: column;
-  grid-template-columns: 280px 1fr;
+  grid-template-columns: auto 1fr;
   grid-gap: 20px;
+
   box-sizing: border-box;
 
   padding: 0 20px;

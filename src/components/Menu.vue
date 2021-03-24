@@ -38,9 +38,11 @@ export default defineComponent({
 
 <style scoped>
 .container{
-  width: 280px;
+  width: 100%;
   height: 100%;
   box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.170509);
+
+  box-sizing: border-box;
 }
 
 .flex{

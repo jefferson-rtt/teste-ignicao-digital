@@ -101,7 +101,7 @@ a type specimen book.</p>
   align-items: center;
   justify-content: center;
 
-  padding: 15px 10px;
+  padding: 1em .6em;
   font-size: .80em;
   font-weight: 600;
   text-transform: uppercase;
