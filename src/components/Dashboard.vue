@@ -40,7 +40,7 @@ export default defineComponent({
 .frame{
   display: grid;
   grid-auto-flow: column;
-  grid-template-columns: 370px 1fr;
+  grid-template-columns: 350px 1fr;
   gap: 20px;
 }
 </style>

@@ -6,18 +6,23 @@
         <input type="search" placeholder="Buscar">
         <img src="@/assets/images/search.svg" alt="">
       </span>
+      <Product />
+      <Product />
+      <Product />
+      <Product />
+      <Product />
+      <Product />
     </div>
   </div>
 </template>
 
 <script lang="ts">
 import { defineComponent } from 'vue'
+import Product from '@/components/dashboard/product/Product.vue'
 
 export default defineComponent({
-  setup () {
-    
-
-    return {}
+  components: {
+    Product
   }
 })
 </script>
@@ -27,8 +32,10 @@ export default defineComponent({
   width: 100%;
 }
 
-.menu{
 
+.menu{
+  display: grid;
+  grid-gap: 20px;
 }
 
 .search{
