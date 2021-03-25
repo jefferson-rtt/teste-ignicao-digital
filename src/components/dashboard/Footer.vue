@@ -57,7 +57,7 @@ ul{
 .pages li{
   display: list-item;
   font-size: 1.125em;
-  padding: 1rem 1.2rem;
+  padding: .8rem 1.2rem;
   transition: all .2s;
   cursor: pointer;
 }
