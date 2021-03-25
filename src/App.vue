@@ -11,6 +11,7 @@ import Menu from '@/components/Menu.vue'
 import Dashboard from '@/components/Dashboard.vue'
 
 
+
 export default defineComponent({
   name: "App",
   components: {Menu, Dashboard

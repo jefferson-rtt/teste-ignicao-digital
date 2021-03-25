@@ -8,6 +8,7 @@
       <Filters />
       <FrameGrid />
     </div>
+    <Footer  class="footer"/>
   </div>
 </template>
 
@@ -17,10 +18,11 @@ import Navbar from '@/components/navegation/Navbar.vue'
 import BreadCrumbs from '@/components/navegation/BreadCrumbs.vue'
 import Filters from '@/components/dashboard/Filters.vue'
 import FrameGrid from '@/components/dashboard/FrameGrid.vue'
+import Footer from '@/components/dashboard/Footer.vue'
 
 export default defineComponent({
   components: {
-    Navbar, BreadCrumbs, Filters, FrameGrid,
+    Navbar, BreadCrumbs, Filters, FrameGrid, Footer
   }
 })
 </script>
@@ -43,5 +45,10 @@ export default defineComponent({
   grid-auto-flow: column;
   grid-template-columns: auto 1fr;
   gap: 20px;
+}
+
+.footer{
+  justify-self: center;
+  margin-top: 5rem;
 }
 </style>
