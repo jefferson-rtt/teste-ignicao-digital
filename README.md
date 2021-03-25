@@ -9,6 +9,8 @@ git clone https://github.com/jefferson-rtt/teste-ignicao-digital
 cd teste-ignicao-digital
 ````
 
+- Required to have the [yarn](https://classic.yarnpkg.com/en/docs/install/#mac-stable) package installed
+
 ## Project setup
 ```
 yarn install
